@@ -13,9 +13,9 @@ int main(void)
 	e = 'e';
 	q = 'q';
 
-	for (var = 'a'; var <= 'z'; var ++)
+	for (var = 'a'; var <= 'z'; var++)
 	{
-		if (var!= e && var!= q)
+		if (var != e && var != q)
 			putchar (var);
 	}
 	putchar ('\n');
