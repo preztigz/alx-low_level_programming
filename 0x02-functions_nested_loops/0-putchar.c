@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <unisdt.h>
+#include <unistd.h>
 
 /**
  * main - prints the string "Holberton" from a character array.
