@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unisdt.h>
 
 /**
  * main - prints the string "Holberton" from a character array.
@@ -7,6 +8,7 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	const char *message = "_putchar\n"
+		write(1, message, 9);
 	return (0);
 }
